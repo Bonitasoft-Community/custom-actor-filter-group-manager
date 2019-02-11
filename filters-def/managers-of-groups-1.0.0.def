@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definition:ConnectorDefinition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:definition="http://www.bonitasoft.org/ns/connector/definition/6.1">
+  <id>managers-of-groups</id>
+  <version>1.0.0</version>
+  <category icon="actors_mapping.png" id="organization"/>
+  <input mandatory="true" name="groupIds" type="java.util.List"/>
+  <page id="configuration">
+    <widget xsi:type="definition:ScriptEditor" id="groupIdsWidget" inputName="groupIds"/>
+  </page>
+</definition:ConnectorDefinition>

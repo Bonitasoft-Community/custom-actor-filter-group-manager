@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<implementation:connectorImplementation xmlns:implementation="http://www.bonitasoft.org/ns/connector/implementation/6.0">
+  <implementationId>managers-of-groups-impl</implementationId>
+  <implementationVersion>1.0.0</implementationVersion>
+  <definitionId>managers-of-groups</definitionId>
+  <definitionVersion>1.0.0</definitionVersion>
+  <implementationClassname>org.mycompany.connector.ManagersOfGroupsImpl</implementationClassname>
+  <description>Returns all users that have the role manager within the provided group list.</description>
+  <jarDependencies/>
+</implementation:connectorImplementation>

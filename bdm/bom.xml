@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<businessObjectModel modelVersion="1.0" productVersion="7.8.1">
+    <businessObjects>
+        <businessObject qualifiedName="com.company.model.GroupSelection">
+            <fields>
+                <field type="LONG" length="255" name="selectedGroups" nullable="true" collection="true"/>
+            </fields>
+            <uniqueConstraints/>
+            <queries/>
+            <indexes/>
+        </businessObject>
+    </businessObjects>
+</businessObjectModel>
